@@ -6,7 +6,7 @@ def array_partition(nums):
     total = 0
     
     for i in range(0, len(nums), 2):
-        total += num[i]
+        total += nums[i]
         
     return total
 

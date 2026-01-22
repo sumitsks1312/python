@@ -11,4 +11,4 @@ def remove_duplicates(nums):
     
     return i+1
 
-print(remove_duplicate(nums))
+print(remove_duplicates(nums))
