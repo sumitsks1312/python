@@ -21,3 +21,10 @@ def valid_anagram(s,t):
     return True
 
 print(valid_anagram(s,t))
+
+# Time Complexity O(n)
+# First loop over s → O(n)
+# Second loop over t → O(n)
+
+# Space Complexity O(n)
+# freq stores character counts

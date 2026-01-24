@@ -14,11 +14,14 @@ def two_sum(nums, target):
             return [seen[diff], i]
     
         seen[num] = i
-        print(seen)
-    
-    
+        print(seen)  
         
     return None
             
       
 print(two_sum(nums, target))
+
+
+# Time Complexity O(n)
+
+# Space Complexity O(n)

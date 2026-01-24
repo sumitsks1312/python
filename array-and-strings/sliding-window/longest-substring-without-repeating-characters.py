@@ -1,4 +1,4 @@
-s = "abcdabc"
+s="abcabcbb"
 
 def longest_substring(s):
     
@@ -14,10 +14,17 @@ def longest_substring(s):
             
         seen.add(s[r])
         max_len = max(max_len, r - l + 1)
-    
+
     return max_len
     
 print(longest_substring(s))
 
 
+# Time Complexity O(n)
+# The right pointer r moves from 0 → n-1 once
+# The left pointer l also moves from 0 → n-1 once
+# total operations are proportional to 2n
 
+# Space Complexity O(n)
+# size = n
+# No additional arrays or maps

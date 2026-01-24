@@ -8,11 +8,16 @@ def best_time_to_buy_stock(prices):
     for price in prices:
         lowest = min(lowest, price)
         diff = price - lowest
-        if diff > profit:
-            profit = diff
+        profit = max(profit, diff)
             
     return profit
     
     
-    
 print(best_time_to_buy_stock(prices))
+
+# Time Complexity O(n)
+# Single pass through the array
+
+# Space Complexity O(1)
+# Only a few variables: lowest, profit, diff
+# No additional arrays or maps

@@ -42,3 +42,11 @@ def three_sum(nums, target):
             
       
 print(three_sum(nums, target))
+
+
+# Time Complexity O(n^2)
+# two nested loops (outer i, inner two-pointer)
+
+# Space Complexity O(1)
+# i, l, r, s → constant
+# No hash maps, sets, or arrays

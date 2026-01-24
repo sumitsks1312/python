@@ -23,3 +23,11 @@ def is_palindrome(s):
     return True
 
 print(is_palindrome(s))
+
+
+# Time Complexity O(n)
+# n = len(s)
+
+# Space Complexity O(1)
+# Only l, r and a few temporary variables
+# No extra arrays, strings, or hash maps

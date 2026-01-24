@@ -14,3 +14,12 @@ def group_anagram(strs):
     return list(anagram.values())
 
 print(group_anagram(strs))
+
+
+# Time Complexity O(n * k log k)
+# n = number of strings, k = average length of a string
+# Sorting each word takes O(k log k)
+# You do this for all n words
+
+# Space Complexity O(n * k)
+# Keys: sorted versions of words → up to n keys of length k

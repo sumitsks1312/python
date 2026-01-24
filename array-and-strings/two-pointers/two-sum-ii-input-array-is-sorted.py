@@ -19,3 +19,11 @@ def two_sum(nums, target):
             
       
 print(two_sum(nums, target))
+
+
+# Time Complexity O(n)
+# Each pointer moves at most once across the array
+
+# Space Complexity O(1)
+# Only variables l, r, and sum
+# No extra data structures
