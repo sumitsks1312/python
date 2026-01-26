@@ -15,3 +15,10 @@ def max_consecutive_ones(nums):
     return max_len
     
 print(max_consecutive_ones(nums))
+
+
+# Time Complexity O(n)
+# iterate through the array exactly once with the r pointer.
+
+# Space Complexity O(1)
+# only using two integer variables (l and max_len) regardless of how large the input array is
