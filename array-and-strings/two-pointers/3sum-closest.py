@@ -29,3 +29,15 @@ def three_sum_closest(nums, target):
     return closest
 
 print(three_sum_closest(nums, target))
+
+
+
+# Time Complexity O(n2)
+# Sorting: Takes O(n log n).
+# Nested Loops: The outer loop runs n times, and the inner while loop (two-pointer scan) also runs up to n times for each outer iteration
+# This results in On2
+
+# Space Complexity O(n)
+# Your variables (l, r, s, closest) take constant O(1) space.
+# However, Python's sort() (Timsort) requires O(n) auxiliary space in the worst case.
+
