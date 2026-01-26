@@ -12,4 +12,7 @@ def longest_common_prefix(strs):
     
 print(longest_common_prefix(strs))
 
+# Time Complexity O(s)
+# Where s is the sum of all characters in all strings
 
+# Space Complexity O(1)
