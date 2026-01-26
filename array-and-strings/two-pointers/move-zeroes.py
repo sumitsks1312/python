@@ -13,3 +13,8 @@ def move_zeroes(nums):
     return nums
     
 print(move_zeroes(nums))
+
+
+# Time Complexity O(n)
+
+# Space Complexity O(1)
