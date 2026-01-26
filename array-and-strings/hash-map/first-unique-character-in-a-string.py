@@ -14,3 +14,11 @@ def unique_character(s):
     return None
 
 print(unique_character(s))
+
+
+# Time Complexity O(n)
+# perform two linear passes over the string (length n)
+
+
+# Space Complexity O(1)
+# number of unique characters is capped by the size of the alphabet
