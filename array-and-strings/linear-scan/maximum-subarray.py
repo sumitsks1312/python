@@ -15,3 +15,10 @@ def maximum_subarray(nums):
     
     
 print(maximum_subarray(nums))
+
+
+# Time Complexity O(n)
+# only iterate through the array once
+
+# Space Complexity O(1)
+# store two variables regardless of how large the input array is.
