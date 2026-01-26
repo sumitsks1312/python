@@ -12,3 +12,7 @@ def remove_duplicates(nums):
     return i+1
 
 print(remove_duplicates(nums))
+
+# Time Complexity O(n)
+
+# Space Complexity O(1)
