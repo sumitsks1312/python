@@ -28,5 +28,10 @@ def longest_substring(s):
 print(longest_substring(s))
 
 
+# Time Complexity O(n)
+# iterate through the array exactly once with the r pointer.
 
+# Space Complexity O(1)
+# The space used by the dictionary is proportional to the number of distinct characters allowed k. 
+# In this case, since k = 2, the space is O(1).
 
