@@ -15,3 +15,6 @@ def reverse_string(s):
     
 print(reverse_string(s))
 
+# Time Complexity O(n)
+
+# Space Complexity O(1)
