@@ -11,3 +11,10 @@ def array_partition(nums):
     return total
 
 print(array_partition(nums))
+
+
+# Time Complexity O(n log n)
+# Sorting n intervals → O(n log n)
+
+# Space Complexity O(1)
+# .sort() sorts the list in-place
